@@ -1,0 +1,10 @@
+.innercontent
+{
+    width: 90%;
+    height: 95%;
+    /*background-image: url("C:\Users\Tringapps-user9\React Projects\portfolio\src\bgimage.jpg");*/
+    background-color:white;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}

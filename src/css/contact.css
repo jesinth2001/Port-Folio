@@ -1,0 +1,173 @@
+.contact-box
+{
+    width: 100%;
+    height: 250px;
+   
+
+}
+.contact-box h3
+{
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: white;
+}
+.contact-info
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    
+    gap: 25px;
+}
+.inner-box
+{
+    width: 31%;
+    height: 150px;
+    background-color: #222222cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+
+}
+.inner-box div
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.inner-box div span:nth-child(1)
+{
+    color: white;
+}
+.inner-box div span:nth-child(2)
+{
+ color:rgb(152, 151, 151);
+}
+.form-title
+{
+   width: 100%;
+  
+   display: flex;
+   align-items: center;
+   height: 40px; 
+   color: white;
+   font-size: 25px;
+}
+.form
+{
+    width: 100%;
+    height: 500px;
+    background-color: #222222cc;
+}
+.input-box
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-box div
+{
+    width: 90%;
+    height: 50px;
+   
+    display: flex;
+}
+.input-box div span
+{
+    background-color:rgb(16, 16, 16) ;;
+    width: 7%;
+    height: 100%;
+    color:rgb(152, 151, 151) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box div input
+{
+    background-color:rgb(38, 38,38);
+    width: 93%;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding-left: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.Message-box
+{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.Message-box div
+{
+
+    width: 90%;
+    height: 80%;
+    display: flex;
+}
+.Message-box  div span
+{
+    background-color:rgb(16, 16, 16) ;
+    width: 7%;
+    height: 100%;
+    color:rgb(152, 151, 151) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Message-box div textarea
+{
+    background-color:rgb(38, 38, 38) ;
+    width: 93%;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding-left: 5px;
+    color: white;
+    font-size: 18px;
+}
+.submit-btn
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+   
+}
+.submit-btn div
+{
+width: 90%;
+}
+.submit-btn button
+{
+    padding:12px 36px;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgb(252, 186, 21);
+}

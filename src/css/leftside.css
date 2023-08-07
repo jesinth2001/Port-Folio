@@ -1,0 +1,10 @@
+.leftside
+{
+   
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}

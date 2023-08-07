@@ -1,0 +1,13 @@
+.center
+{
+    background-color:#0c0c0cf2;
+    width: 75%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.center::-webkit-scrollbar
+{
+    display: none;
+}

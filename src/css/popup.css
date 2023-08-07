@@ -1,0 +1,42 @@
+.pop-up
+{
+    width:15%;
+    height: 100%;
+    position: absolute;
+    right:5%;
+    transform: translateX(300%);
+    background-color: #222222;
+    transition: transform 0.4s ease-in-out;
+   
+}
+.open-popup
+{
+    transform: translateX(0);
+}
+.pop-up ul li
+{
+    color:rgb(152, 151, 151) ;
+    cursor: pointer;
+    text-decoration: none;
+ 
+}
+.tag
+{
+    color:rgb(152, 151, 151) ;
+    cursor: pointer;
+    text-decoration: none;
+}
+.tag:hover
+{
+    color: white;
+}
+.pop-up ul li:hover
+{
+    color: white;
+}
+.pop-up ul li 
+{
+    width: 100%;
+    margin-bottom: 20px;
+    list-style: none;   
+}

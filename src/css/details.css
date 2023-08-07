@@ -1,0 +1,165 @@
+:root
+{
+    --clr1:#2e2e2e;
+    --textclr:rgb(152, 151, 151);
+    --themeclr:rgb(232, 151, 12);
+
+}
+.details
+{
+    width: 100%;
+    height: 50%;
+    background-color: #222;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.details::-webkit-scrollbar
+{
+    display: none;
+}
+.Personal-det
+{
+    width: 100%;
+   
+}
+.Personal-det div
+{
+    display: flex;
+    justify-content: space-between;
+    color: var(--textclr);
+}
+.Personal-det div span:nth-child(1)
+{
+    color: white;
+}
+.skill-item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skill-det
+{
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.progress
+{
+    width: 100%;
+    height: 4px;
+    background-color:#343434;
+    border-radius:2px;
+}
+.inner-progress
+{
+    width:calc(var(--percent));
+    background-color:var(--themeclr) ;
+    height: 100%;
+    border-radius: 2px;
+}
+.name
+{
+    display: flex;
+    justify-content: space-between;
+    color: var(--textclr);
+}
+.name span:nth-child(1)
+{
+    color: white;
+}
+.language
+{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.lang-cont
+{
+   
+    width: 50%;
+    height: 125px;
+    position: relative;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.lang-cont svg
+{
+    width: 100%;
+  
+    height: 100%;
+    
+}
+.lang-cont svg circle{
+    fill: none;
+    stroke-width: 4px;
+    stroke-linecap: round;
+    
+
+  
+}
+.lang-cont svg circle:nth-child(1)
+{
+    stroke:#151515;
+  
+}
+.lang-cont svg circle:nth-child(2)
+{
+    stroke:var(--themeclr);
+    stroke-dasharray:calc(2*3.14*38);
+    stroke-dashoffset: var(--dArray);
+    
+}
+.lang-det
+{
+    position: absolute;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lang-det h4
+{
+    margin: 0;
+    color: var(--textclr);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.lang-det h2
+{
+
+ 
+    margin: 0;
+    padding: 0;
+   color: var(--textclr);
+   font-size: 20px;
+}
+.lang-cont h2 span
+{
+  font-size: 10px;
+
+}
+.cv
+{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+   
+}
+
+.cv a
+{
+    text-decoration: none;
+    color: var(--textclr);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+

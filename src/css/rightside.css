@@ -1,0 +1,102 @@
+:root
+{
+    --clr1:#2e2e2e;
+    --textclr:rgb(152, 151, 151);
+
+}
+.rightside
+{
+    width: 5%;
+    background-color: #222;
+}
+.nav-cont
+{
+    
+    background-color:var(--clr1 );
+    width:100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btn
+{
+   
+
+    width:30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  
+}
+.nav-btn span
+{
+    width: 80%;
+    height: 3px;
+    background-color:rgb(152, 151, 151);
+    
+    border-radius: 5px;
+    position: absolute;
+    transition: transform 0.5s,top 0.5s;
+  
+}
+.nav-btn .line1
+{
+ top: 5px;
+}
+.nav-btn .line2
+{
+    top: 12px;
+}
+.nav-btn .line3
+{
+    top:19px;
+}
+.nav-btn .change-line1
+{
+   
+    top:12px;
+    transform: rotate(45deg);
+  
+}
+.nav-btn .change-line2
+{
+    transform: translateX(150%);
+    top: 12px;
+}
+.nav-btn .change-line3
+{
+    top:12px;
+    transform: rotate(-45deg);
+}
+.page-indicator
+{
+    background-color: #222;
+    width:100%;
+    height: 70%; 
+    color: var(--textclr);
+    text-transform: uppercase;
+    font-weight: 400;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.page-indicator div
+{
+   
+  
+    
+    transform: rotate(90deg);
+}
+.settings
+{
+    width:100%;
+    height: 20%;
+    background-color: var(--clr1);
+}
